@@ -1,4 +1,4 @@
-%define version 2.1.1
+%define version 2.2
 %define		    name drakfirsttime
 
 Summary:	    The Mandriva Linux First Time Wizard
@@ -60,6 +60,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc README COPYING NEWS
 %{_sysconfdir}/X11/xsetup.d/??firstboot.xsetup
+%_bindir/*
 %attr(700,ftw,ftw) /home/ftw
 %config(noreplace) %{_sysconfdir}/sysconfig/firstboot
 %{_datadir}/drakfirsttime
