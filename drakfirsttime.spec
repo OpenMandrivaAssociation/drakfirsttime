@@ -40,10 +40,6 @@ mkdir -p %buildroot%_prefix/X11R6/bin/
 
 #install lang
 %{find_lang} drakfirstboot
-mkdir -p %buildroot/home/ftw
-
-%pre
-%_pre_useradd ftw /home/ftw /bin/false
 
 %post
 %{update_menus}
@@ -61,7 +57,6 @@ rm -rf %{buildroot}
 %doc README COPYING NEWS
 %{_sysconfdir}/X11/xsetup.d/??firstboot.xsetup
 %_bindir/*
-%attr(700,ftw,ftw) /home/ftw
 %config(noreplace) %{_sysconfdir}/sysconfig/firstboot
 %{_datadir}/drakfirsttime
 
