@@ -14,7 +14,6 @@ Requires:	    drakxtools >= 10.1-0.17mdk, perl-MDK-Common >= 1.1.17-3mdk, perl-l
 Requires:		xinitrc >= 2.4.9-1mdk, hwdb-clients >= 0.15.1-1mdk
 Requires:      xrandr evilwm mozilla-firefox
 #Obsoletes:		mdkonline
-BuildRoot:	    %{_tmppath}/%{name}-buildroot
 BuildRequires:  gettext perl-devel perl-MDK-Common-devel
 BuildArch:		noarch
 
