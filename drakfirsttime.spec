@@ -6,7 +6,7 @@ Name:		    %{name}
 Version:	    %{version}
 Release:        %mkrel 1
 # http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ftw/
-Source0:	    %{name}-%{version}.tar.bz2
+Source0:	    %{name}-%{version}.tar.lzma
 URL:		    http://qa.mandriva.com/
 License:	    GPL
 Group:		    System/Configuration/Other
