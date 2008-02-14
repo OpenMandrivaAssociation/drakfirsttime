@@ -43,11 +43,9 @@ mkdir -p %buildroot%_prefix/X11R6/bin/
 %{find_lang} drakfirstboot
 
 %post
-%{update_menus}
 %update_icon_cache hicolor
 
 %postun
-%{clean_menus}
 %clean_icon_cache hicolor
 
 %clean
