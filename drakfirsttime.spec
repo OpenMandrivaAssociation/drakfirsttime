@@ -12,7 +12,8 @@ License:	    GPL
 Group:		    System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	    drakxtools >= 10.1-0.17mdk, perl-MDK-Common >= 1.1.17-3mdk, perl-libwww-perl >= 5.800-1mdk
-Requires:		xinitrc >= 2.4.9-1mdk, hcl
+Requires:		xinitrc >= 2.4.9-1mdk
+Suggests:		hcl
 Requires:      xrandr evilwm mozilla-firefox
 #Obsoletes:		mdkonline
 BuildRequires:  gettext perl-devel perl-MDK-Common-devel
