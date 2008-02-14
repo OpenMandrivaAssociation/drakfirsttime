@@ -10,6 +10,7 @@ Source0:	    %{name}-%{version}.tar.lzma
 URL:		    http://qa.mandriva.com/
 License:	    GPL
 Group:		    System/Configuration/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	    drakxtools >= 10.1-0.17mdk, perl-MDK-Common >= 1.1.17-3mdk, perl-libwww-perl >= 5.800-1mdk
 Requires:		xinitrc >= 2.4.9-1mdk, hwdb-clients >= 0.15.1-1mdk
 Requires:      xrandr evilwm mozilla-firefox
