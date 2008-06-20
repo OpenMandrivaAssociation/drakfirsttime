@@ -42,11 +42,15 @@ mkdir -p %buildroot%_prefix/X11R6/bin/
 #install lang
 %{find_lang} drakfirstboot
 
+%if %mdkversion < 200900
 %post
 %update_icon_cache hicolor
+%endif
 
+%if %mdkversion < 200900
 %postun
 %clean_icon_cache hicolor
+%endif
 
 %clean
 rm -rf %{buildroot}
