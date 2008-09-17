@@ -1,10 +1,10 @@
-%define version 2.17
+%define version 2.18
 %define		    name drakfirsttime
 
 Summary:	    The Mandriva Linux First Time Wizard
 Name:		    %{name}
 Version:	    %{version}
-Release:        %mkrel 3
+Release:        %mkrel 1
 # http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ftw/
 Source0:	    %{name}-%{version}.tar.lzma
 URL:		    http://qa.mandriva.com/
@@ -14,7 +14,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	    drakxtools >= 10.1-0.17mdk, perl-MDK-Common >= 1.1.17-3mdk, perl-libwww-perl >= 5.800-1mdk
 Requires:		xinitrc >= 2.4.9-1mdk
 Suggests:		hcl
-Requires:      xrandr evilwm mozilla-firefox
+Requires:      xrandr mozilla-firefox
+Requires:	drakx-installer-matchbox
 #Obsoletes:		mdkonline
 BuildRequires:  gettext perl-devel perl-MDK-Common-devel
 BuildArch:		noarch
