@@ -1,4 +1,4 @@
-%define version 2.19
+%define version 2.20
 %define		    name drakfirsttime
 
 Summary:	    The Mandriva Linux First Time Wizard
