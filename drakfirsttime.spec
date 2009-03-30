@@ -1,10 +1,10 @@
-%define version 2.21
+%define version 2.21.1
 %define		    name drakfirsttime
 
 Summary:	    The Mandriva Linux First Time Wizard
 Name:		    %{name}
 Version:	    %{version}
-Release:        %mkrel 2
+Release:        %mkrel 1
 # http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ftw/
 Source0:	    %{name}-%{version}.tar.lzma
 URL:		    http://qa.mandriva.com/
