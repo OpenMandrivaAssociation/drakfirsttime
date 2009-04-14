@@ -7,7 +7,6 @@ Version:	    %{version}
 Release:        %mkrel 1
 # http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ftw/
 Source0:	    %{name}-%{version}.tar.lzma
-Patch0:		drakfirsttime-2.22-fix-build.diff
 URL:		    http://qa.mandriva.com/
 License:	    GPL
 Group:		    System/Configuration/Other
@@ -32,7 +31,6 @@ sources.
 rm -rf %{buildroot}
 
 %setup -q
-%patch0 -p0
 
 %build
 
