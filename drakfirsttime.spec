@@ -1,4 +1,4 @@
-%define version 2.23
+%define version 2.24
 %define		    name drakfirsttime
 
 Summary:	    The Mandriva Linux First Time Wizard
@@ -17,6 +17,7 @@ Suggests:		hcl
 Requires:      xrandr mozilla-firefox
 Requires:	drakx-installer-matchbox
 BuildRequires:  gettext perl-devel perl-MDK-Common-devel
+BuildRequires:  firefox-ext-r-kiosk
 BuildArch:		noarch
 
 %description
@@ -36,6 +37,8 @@ rm -rf %{buildroot}
 %install
 rm -rf %{buildroot}
 %makeinstall_std PREFIX=%buildroot%_prefix
+# (tv) install r-kiosk extension:
+cp -a /usr/lib/firefox-*/extensions/* %buildroot%_datadir/%name/firefox/drakfirsttime/extensions
 
 mkdir -p %buildroot%_prefix/X11R6/bin/
 
