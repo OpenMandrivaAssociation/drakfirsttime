@@ -16,7 +16,6 @@ Requires:		xinitrc >= 2.4.9-1mdk
 Suggests:		hcl
 Requires:      xrandr mozilla-firefox
 Requires:	drakx-installer-matchbox
-#Obsoletes:		mdkonline
 BuildRequires:  gettext perl-devel perl-MDK-Common-devel
 BuildArch:		noarch
 
