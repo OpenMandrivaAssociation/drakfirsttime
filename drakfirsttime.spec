@@ -4,7 +4,7 @@
 Summary:	    The Mandriva Linux First Time Wizard
 Name:		    %{name}
 Version:	    %{version}
-Release:        %mkrel 1
+Release:        %mkrel 2
 # http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ftw/
 Source0:	    %{name}-%{version}.tar.lzma
 URL:		    http://qa.mandriva.com/
