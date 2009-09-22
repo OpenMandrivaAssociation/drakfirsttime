@@ -38,7 +38,8 @@ rm -rf %{buildroot}
 rm -rf %{buildroot}
 %makeinstall_std PREFIX=%buildroot%_prefix
 # (tv) install r-kiosk extension:
-cp -a /usr/lib/firefox-*/extensions/* %buildroot%_datadir/%name/firefox/drakfirsttime/extensions
+mkdir -p %buildroot%_datadir/%name/firefox/drakfirsttime/extensions
+cp -a %_libdir/firefox-*/extensions/* %buildroot%_datadir/%name/firefox/drakfirsttime/extensions
 
 mkdir -p %buildroot%_prefix/X11R6/bin/
 
