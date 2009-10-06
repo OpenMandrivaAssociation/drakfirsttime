@@ -1,4 +1,4 @@
-%define version 2.25.1
+%define version 2.25.2
 %define		    name drakfirsttime
 
 Summary:	    The Mandriva Linux First Time Wizard
