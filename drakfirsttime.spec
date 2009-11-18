@@ -1,4 +1,4 @@
-%define version 2.25.2
+%define version 2.25.3
 %define		    name drakfirsttime
 
 Summary:	    The Mandriva Linux First Time Wizard
@@ -11,7 +11,9 @@ URL:		    http://qa.mandriva.com/
 License:	    GPL
 Group:		    System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires:	    drakxtools >= 12.51, perl-MDK-Common >= 1.1.17-3mdk, perl-libwww-perl >= 5.800-1mdk
+Requires:	    drakxtools >= 12.77.1, perl-MDK-Common >= 1.1.17-3mdk, perl-libwww-perl >= 5.800-1mdk
+# for connection test:
+Requires:	    libdrakx-net
 Requires:		xinitrc >= 2.4.9-1mdk
 Suggests:		hcl
 Requires:      xrandr mozilla-firefox
