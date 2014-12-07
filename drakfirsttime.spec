@@ -1,7 +1,7 @@
 Summary:	The Mandriva Linux First Time Wizard
 Name:		drakfirsttime
 Version:	2.25.5
-Release:	10
+Release:	11
 License:	GPLv2
 Group:		System/Configuration/Other
 # http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ftw/
