@@ -5,7 +5,7 @@ Release:	13
 License:	GPLv2
 Group:		System/Configuration/Other
 # http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ftw/
-Url:		http://qa.mandriva.com/
+Url:		https://qa.mandriva.com/
 Source0:	%{name}-%{version}.tar.lzma
 BuildArch:	noarch
 
